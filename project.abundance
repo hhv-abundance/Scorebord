@@ -18,43 +18,43 @@
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5153083225528244,
-            "y": 0.5016666666666667,
-            "uniqueID": 1744265804193,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 240
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 240
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3367830961621388,
-            "y": 0.5116666666666667,
-            "uniqueID": 1744266267684,
+            "x": 0.3855109961190168,
+            "y": 0.37666666666666665,
+            "uniqueID": 1744266524791,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 440
+                    "ioValue": ""
                 }
             ],
             "description": "Creates a new circle."
         },
         {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.6226821905993962,
+            "y": 0.405,
+            "uniqueID": 1744266550616,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 210
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 210
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2367399741267788,
-            "y": 0.39666666666666667,
-            "uniqueID": 1744266407919,
+            "x": 0.12850366537300562,
+            "y": 0.405,
+            "uniqueID": 1744266580546,
             "ioValues": [
                 {
                     "name": "geometry",
@@ -68,7 +68,16 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1744266580546,
+            "ap2ID": 1744266524791
+        },
+        null
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
