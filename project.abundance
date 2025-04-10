@@ -20,8 +20,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15092712376024148,
-            "y": 0.24,
+            "x": 0.15308322552824494,
+            "y": 0.245,
             "uniqueID": 1744266524791,
             "ioValues": [
                 {
@@ -84,6 +84,24 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2945235015092712,
+            "y": 0.6266666666666667,
+            "uniqueID": 1744319230068,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": 1744266829282
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": 1744266896281
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
@@ -100,6 +118,20 @@
             "ap2Primary": true,
             "ap1ID": 1744266550616,
             "ap2ID": 1744266896281
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1744266829282,
+            "ap2ID": 1744319230068
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1744266896281,
+            "ap2ID": 1744319230068
         }
     ],
     "unitsKey": "MM",
