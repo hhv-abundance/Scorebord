@@ -70,8 +70,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.470030185424752,
-            "y": 0.5449999999999999,
+            "x": 0.4772492244053774,
+            "y": 0.5217391304347826,
             "uniqueID": 1744266896281,
             "ioValues": [
                 {
@@ -93,12 +93,12 @@
             "uniqueID": 1744319230068,
             "ioValues": [
                 {
-                    "name": "geometry2",
-                    "ioValue": 1744266829282
-                },
-                {
                     "name": "geometry1",
                     "ioValue": 1744266896281
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1744266829282
                 }
             ],
             "description": "Subtracts shape two from shape one."
